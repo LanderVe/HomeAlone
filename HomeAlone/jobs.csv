@@ -1,0 +1,157 @@
+﻿Time;Relais;Action;JitterSeconds;Description
+
+# Week - Ochtend Routine
+0 45 6 ? * MON-FRI *;2.6;On;30;Ochtend Nachthal aan
+15 45 6 ? * MON-FRI *;2.7;On;10;Ochtend WC aan
+25 47 6 ? * MON-FRI *;1.11;On;10;Ochtend Badkamer aan
+0 58 6 ? * MON-FRI *;2.9;On;60;Ochtend Aiko aan
+0 58 6 ? * MON-FRI *;2.10;On;60;Ochtend Ellie aan
+0 1 7 ? * MON-FRI *;2.8;On;120;Ochtend Master aan
+
+15 5 7 ? * MON-FRI *;2.7;Off;60;Ochtend WC uit
+0 15 7 ? * MON-FRI *;2.8;Off;120;Ochtend Master uit
+0 25 7 ? * MON-FRI *;1.11;Off;10;Ochtend Badkamer uit
+30 25 7 ? * MON-FRI *;2.6;Off;60;Ochtend Nachthal uit
+0 30 7 ? * MON-FRI *;2.9;Off;60;Ochtend Aiko uit
+
+40 26 7 ? * MON-FRI *;3.3;On;0;Ochtend Zitruimte rondom aan
+40 26 7 ? * MON-FRI *;3.4;On;0;Ochtend Zithoek aan
+40 26 7 ? * MON-FRI *;2.1;On;0;Ochtend Keukeneiland aan
+40 26 7 ? * MON-FRI *;1.10;On;120;Ochtend Keukenwerkblad aan
+40 26 7 ? * MON-FRI *;3.1;On;180;Ochtend Spots keuken aan
+
+16 45 7 ? * MON-FRI *;2.5;On;30;Ochtend Trap aan
+25 47 7 ? * MON-FRI *;1.11;On;30;Ochtend Badkamer aan
+25 54 7 ? * MON-FRI *;1.11;Off;30;Ochtend Badkamer uit
+20 55 7 ? * MON-FRI *;2.10;Off;60;Ochtend Ellie uit
+0 56 7 ? * MON-FRI *;2.5;Off;30;Ochtend Trap uit
+
+30 57 7 ? * MON-FRI *;3.5;On;60;Ochtend Inkom aan
+10 59 7 ? * MON-FRI *;2.12;On;120;Ochtend Bijkeuken aan
+ 
+25 1 8 ? * MON-FRI *;3.3;Off;0;Ochtend Zitruimte rondom uit
+25 1 8 ? * MON-FRI *;3.4;Off;0;Ochtend Zithoek uit
+25 1 8 ? * MON-FRI *;2.1;Off;0;Ochtend Keukeneiland uit
+25 1 8 ? * MON-FRI *;1.10;Off;0;Ochtend Keukenwerkblad uit
+25 1 8 ? * MON-FRI *;3.1;Off;0;Ochtend Spots keuken uit
+25 1 8 ? * MON-FRI *;3.5;Off;0;Ochtend Inkom uit
+25 1 8 ? * MON-FRI *;2.12;Off;0;Ochtend Bijkeuken uit
+
+
+# Week - Avond Routine
+0 55 17 ? * MON-FRI *;2.1;On;30;Avond Keukeneiland aan
+0 55 17 ? * MON-FRI *;1.10;On;30;Avond Keukenwerkblad aan
+0 55 17 ? * MON-FRI *;3.1;On;30;Avond Spots keuken aan
+0 55 17 ? * MON-FRI *;3.3;On;30;Avond Zitruimte rondom aan
+0 55 17 ? * MON-FRI *;3.4;On;30;Avond Zithoek aan
+
+0 30 18 ? * MON-FRI *;3.2;On;60;Avond Kidsroom aan
+
+20 50 18 ? * MON-FRI *;2.4;On;20;Avond WC aan
+20 55 18 ? * MON-FRI *;2.4;Off;20;Avond WC uit
+
+0 30 19 ? * MON-FRI *;3.2;Off;20;Avond Kidsroom uit
+0 30 19 ? * MON-FRI *;2.6;On;20;Avond Nachthal aan
+20 32 19 ? * MON-FRI *;1.11;On;20;Avond Badkamer tandenpoetsen aan
+20 38 19 ? * MON-FRI *;1.11;Off;20;Avond Badkamer tandenpoetsen uit
+
+0 0 20 ? * MON-FRI *;2.6;Off;30;Avond Nachthal uit
+
+0 30 20 ? * MON-FRI *;3.1;Off;30;Avond Spots keuken uit
+0 0 21 ? * MON-FRI *;2.1;Off;30;Avond Keukeneiland uit
+
+20 15 21 ? * MON-FRI *;2.7;On;20;Avond WC aan
+20 20 21 ? * MON-FRI *;2.7;Off;20;Avond WC uit
+
+20 45 21 ? * MON-FRI *;1.11;On;20;Avond Badkamer avondroutine aan
+20 55 21 ? * MON-FRI *;1.11;Off;20;Avond Badkamer avondroutine uit
+
+0 30 22 ? * MON-FRI *;3.3;Off;30;Avond Zitruimte rondom uit
+0 30 22 ? * MON-FRI *;3.4;Off;30;Avond Zithoek uit
+0 30 22 ? * MON-FRI *;1.10;Off;30;Avond Keukenwerkblad uit
+
+20 5 23 ? * MON-FRI *;2.6;On;20;Avond Nachthal aan
+20 10 23 ? * MON-FRI *;1.11;On;20;Avond Badkamer tandenpoetsen aan
+20 10 23 ? * MON-FRI *;2.8;On;20;Avond Master aan
+
+20 15 23 ? * MON-FRI *;3.3;Off;20;Avond Zitruimte rondom uit
+20 15 23 ? * MON-FRI *;3.4;Off;20;Avond Zithoek uit
+20 15 23 ? * MON-FRI *;2.6;Off;20;Avond Nachthal uit
+20 15 23 ? * MON-FRI *;1.11;Off;20;Avond Badkamer uit
+
+20 20 23 ? * MON-FRI *;2.8;Off;20;Avond Master uit
+
+
+# Weekend - Ochtend Routine
+0 0 8 ? * SAT,SUN *;2.6;On;20;Weekend Ochtend Nachthal ochtend aan
+0 0 8 ? * SAT,SUN *;2.8;On;20;Weekend Ochtend Master ochtend aan
+0 2 8 ? * SAT,SUN *;1.11;On;20;Weekend Ochtend Badkamer ochtendroutine aan
+0 12 8 ? * SAT,SUN *;1.11;Off;20;Weekend Ochtend Badkamer ochtendroutine uit
+0 15 8 ? * SAT,SUN *;2.8;Off;20;Weekend Ochtend Master ochtend uit
+
+0 30 8 ? * SAT,SUN *;2.1;On;20;Weekend Ochtend Keukeneiland aan
+0 30 8 ? * SAT,SUN *;1.10;On;20;Weekend Ochtend Keukenwerkblad aan
+0 30 8 ? * SAT,SUN *;3.1;On;20;Weekend Ochtend Spots keuken aan
+0 30 8 ? * SAT,SUN *;3.3;On;20;Weekend Ochtend Zitruimte rondom aan
+0 30 8 ? * SAT,SUN *;3.4;On;20;Weekend Ochtend Zithoek aan
+
+20 45 8 ? * SAT,SUN *;2.4;On;20;Weekend Ochtend WC ochtend aan
+20 50 8 ? * SAT,SUN *;2.4;Off;20;Weekend Ochtend WC ochtend uit
+
+0 0 9 ? * SAT,SUN *;3.2;On;30;Weekend Ochtend Kidsroom ochtend aan
+
+0 30 9 ? * SAT,SUN *;2.6;On;20;Weekend Ochtend Nachthal kidsroutine aan
+0 32 9 ? * SAT,SUN *;1.11;On;20;Weekend Ochtend Badkamer kidsroutine aan
+0 42 9 ? * SAT,SUN *;1.11;Off;20;Weekend Ochtend Badkamer kidsroutine uit
+0 45 9 ? * SAT,SUN *;2.6;Off;20;Weekend Ochtend Nachthal kidsroutine uit
+
+0 0 10 ? * SAT,SUN *;1.10;Off;20;Weekend Ochtend Keukenwerkblad uit
+0 5 10 ? * SAT,SUN *;3.1;Off;120;Weekend Ochtend Spots keuken uit
+0 12 10 ? * SAT,SUN *;3.4;Off;120;Weekend Ochtend Zithoek uit
+0 12 10 ? * SAT,SUN *;3.3;Off;120;Weekend Ochtend Zitruimte rondom uit
+0 14 10 ? * SAT,SUN *;2.1;Off;120;Weekend Ochtend Keukeneiland uit
+0 0 11 ? * SAT,SUN *;3.2;Off;20;Weekend Ochtend Kidsroom ochtend uit
+
+
+# Weekend - Avond Routine
+0 0 18 ? * SAT,SUN *;2.1;On;30;Weekend Avond Keukeneiland aan
+0 0 18 ? * SAT,SUN *;1.10;On;30;Weekend Avond Keukenwerkblad aan
+0 0 18 ? * SAT,SUN *;3.1;On;30;Weekend Avond Spots keuken aan
+0 0 18 ? * SAT,SUN *;3.3;On;30;Weekend Avond Zitruimte rondom aan
+0 0 18 ? * SAT,SUN *;3.4;On;30;Weekend Avond Zithoek aan
+
+0 0 19 ? * SAT,SUN *;3.2;On;60;Weekend Avond Kidsroom aan
+
+20 50 19 ? * SAT,SUN *;2.7;On;20;Weekend Avond WC aan
+20 55 19 ? * SAT,SUN *;2.7;Off;20;Weekend Avond WC uit
+
+0 30 20 ? * SAT,SUN *;3.2;Off;20;Weekend Avond Kidsroom uit
+0 30 20 ? * SAT,SUN *;2.6;On;20;Weekend Avond Nachthal aan
+20 32 20 ? * SAT,SUN *;1.11;On;20;Weekend Avond Badkamer tandenpoetsen aan
+20 38 20 ? * SAT,SUN *;1.11;Off;20;Weekend Avond Badkamer tandenpoetsen uit
+
+0 50 20 ? * SAT,SUN *;2.6;Off;30;Weekend Avond Nachthal uit
+
+0 0 20 ? * SAT,SUN *;3.1;Off;30;Weekend Avond Spots keuken uit
+0 0 21 ? * SAT,SUN *;2.1;Off;30;Weekend Avond Keukeneiland uit
+
+20 15 22 ? * SAT,SUN *;2.7;On;20;Weekend Avond WC aan
+20 20 22 ? * SAT,SUN *;2.7;Off;20;Weekend Avond WC uit
+
+20 15 22 ? * SAT,SUN *;1.11;On;20;Weekend Avond Badkamer avondroutine aan
+20 25 22 ? * SAT,SUN *;1.11;Off;20;Weekend Avond Badkamer avondroutine uit
+
+0 0 23 ? * SAT,SUN *;3.3;Off;30;Weekend Avond Zitruimte rondom uit
+0 0 23 ? * SAT,SUN *;3.4;Off;30;Weekend Avond Zithoek uit
+0 0 23 ? * SAT,SUN *;1.10;Off;30;Weekend Avond Keukenwerkblad uit
+
+20 25 23 ? * SAT,SUN *;2.8;On;20;Weekend Avond Master aan
+20 30 23 ? * SAT,SUN *;2.6;On;20;Weekend Avond Nachthal aan
+20 30 23 ? * SAT,SUN *;1.11;On;20;Weekend Avond Badkamer tandenpoetsen aan
+
+20 30 23 ? * SAT,SUN *;3.3;Off;20;Weekend Avond Laatste lichten uit
+20 30 23 ? * SAT,SUN *;3.4;Off;20;Weekend Avond Laatste lichten uit
+20 30 23 ? * SAT,SUN *;2.6;Off;20;Weekend Avond Nachthal uit
+20 30 23 ? * SAT,SUN *;1.11;Off;20;Weekend Avond Badkamer uit
+
+20 35 23 ? * SAT,SUN *;2.8;Off;20;Weekend Avond Master uit
